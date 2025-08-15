@@ -50,29 +50,6 @@ function Navbar() {
             <Image src={shoping} alt="" className="navIcon" />
           </div>
         </div>
-        {/* <div>
-          <button
-            onClick={toggleCart}
-            style={{ animationDuration: "0ms" }}
-            className="cart-button"
-          >
-            🛒 View Cart
-          </button>
-
-          {isCartOpen && (
-            <div
-              className="cart-sidebar"
-              style={{
-                animationDuration: "0ms",
-                transition: "none",
-              }}
-            >
-              <h3>Your Cart</h3>
-              <p>Items: 3</p>
-              <p>Total: $99.99</p>
-            </div>
-          )}
-        </div> */}
       </div>
     </nav>
   );

@@ -70,23 +70,3 @@ nav {
   color: var(--black);
   cursor: pointer;
 }
-/* styles.css */
-.cart-button {
-  padding: 10px 20px;
-  background: #333;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-.cart-sidebar {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 300px;
-  height: 100%;
-  background: white;
-  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  z-index: 1000;
-}
