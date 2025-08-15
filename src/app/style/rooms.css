@@ -1,0 +1,172 @@
+.rooms {
+  width: 1440px;
+  height: 670px;
+  background-color: var(--white4);
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  gap: 50px;
+  overflow: hidden;
+}
+.roomsContentBox {
+  width: 422px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.roomsContent {
+  width: 422px;
+  height: 151px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.roomsContent h3 {
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 120%;
+  color: var(--black2);
+}
+.roomsContent p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--black3);
+}
+.roomsContentBox button {
+  width: 176px;
+  height: 48px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--white);
+  background-color: var(--main);
+  border: 0;
+  cursor: pointer;
+}
+.roomsImages {
+  width: 1196px;
+  height: 582px;
+  display: flex;
+  gap: 20px;
+}
+.room1,
+.room1Image {
+  height: 582px;
+  width: 404px;
+}
+.room1 {
+  position: relative;
+}
+.textArrawBox {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 25px;
+  left: 242px;
+  background-color: var(--main);
+  cursor: pointer;
+}
+.textArraw {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+.room1Content {
+  width: 217px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  background-color: #ffffffb8;
+  backdrop-filter: blur(3px);
+}
+.roomText {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.roomText > div {
+  width: 142px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--black3);
+}
+.roomText h4 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 120%;
+  color: var(--black2);
+}
+.room2 {
+  height: 100%;
+  width: 372px;
+  position: relative;
+}
+.room2Image {
+  width: 372px;
+  height: 486px;
+  object-fit: cover;
+}
+.imageArrawBox {
+  width: 48px;
+  height: 48px;
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  align-self: center;
+  right: -24px;
+  cursor: pointer;
+  box-shadow: #00000029 0 4px 14px;
+}
+.imageArraw {
+  width: 24px;
+  height: 24px;
+}
+.inputIcons {
+  width: 120px;
+  height: 27px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 35px;
+}
+.input,
+.activeInput .input {
+  height: 11px;
+  width: 11px;
+  background-color: var(--white5);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.activeInput {
+  background-color: transparent;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  border: 1px solid var(--main);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.activeInput .input {
+  background-color: var(--main);
+}

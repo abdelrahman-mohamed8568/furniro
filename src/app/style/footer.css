@@ -1,0 +1,125 @@
+footer {
+  width: 1440px;
+  height: 505px;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+}
+.footerBox {
+  width: 1240px;
+  height: 419px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.footerTop {
+  width: 100%;
+  height: 312px;
+  display: flex;
+  justify-content: space-between;
+}
+.footerText {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.footerText h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  color: var(--black4);
+}
+.footerText p {
+  width: 285px;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 100%;
+  color: var(--gray5);
+}
+.footerContent {
+  width: 710px;
+  height: 312px;
+  display: flex;
+  justify-content: space-between;
+}
+.footerLinks {
+  width: 352px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footerLinks ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 55px;
+  list-style: none;
+  padding: 7px 0;
+}
+.footerLinks ul li {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 100%;
+  cursor: pointer;
+  color: var(--black4);
+}
+.footerLinks ul li:first-child,
+.footerEmail p {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 100%;
+  color: var(--gray5);
+}
+.footerEmail {
+  width: 286px;
+  height: 101px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footerInput {
+  width: 286px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.footerInput input {
+  width: 200px;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid var(--black4);
+  color: var(--gray5);
+  outline: none;
+}
+
+.footerInput button {
+  width: 75.01px;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 13px;
+  line-height: 100%;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid var(--black4);
+  cursor: pointer;
+}
+.footerBottom {
+  width: 100%;
+  height: 59px;
+  border-top: 1px solid var(--gray4);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  display: flex;
+  color: var(--black4);
+  align-items: flex-end;
+}

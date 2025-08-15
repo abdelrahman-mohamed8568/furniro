@@ -1,0 +1,58 @@
+html,
+body {
+  overflow-x: hidden;
+  width: 1440px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --black: #333333;
+  --black2: #3a3a3a;
+  --black3: #616161;
+  --black4: #000000;
+  --black5: #242424;
+  --gray: #666666;
+  --gray2: #898989;
+  --gray3: #b0b0b0;
+  --gray4: #d9d9d9;
+  --gray5: #9f9f9f;
+  --white: #ffffff;
+  --white2: #f4f5f7;
+  --white3: #fff3e3;
+  --white4: #fcf8f3;
+  --white5: #d8d8d8;
+  --main: #b88e2f;
+  --green: #2ec1ac;
+  --red: #e97171;
+  --red2: #f9f1e7;
+  --red3: #faf3ea;
+}
+.main,
+.shop {
+  width: 1440px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  overflow: hidden;
+  background-color: var(--white);
+}
+.link {
+  text-decoration: none !important;
+  color: currentColor;
+}
+.productsBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}

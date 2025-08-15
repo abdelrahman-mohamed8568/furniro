@@ -1,0 +1,92 @@
+nav {
+  width: 1440px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white);
+  position: fixed;
+  z-index: 1000;
+}
+.navBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 41px;
+  width: 100%;
+  width: 1286px;
+}
+.navLogoBox {
+  height: 41px;
+  width: 185px;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.navLogo {
+  width: 50px;
+  height: 32px;
+  object-fit: cover;
+}
+.navLogoBox h2 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+.navLinks {
+  width: 430px;
+  height: 24px;
+  opacity: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navIcons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.nacIconBox {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navIcon {
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.navLinks p {
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 100%;
+  color: var(--black);
+  cursor: pointer;
+}
+/* styles.css */
+.cart-button {
+  padding: 10px 20px;
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.cart-sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  background: white;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  z-index: 1000;
+}
