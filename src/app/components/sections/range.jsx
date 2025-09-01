@@ -20,23 +20,18 @@ function Range() {
         <div className="rangeCard">
           <div className="rangeImageBox">
             <Image src={dining1} alt="" className="rangeImage dining1" />
-            <Image src={dining2} alt="" className="rangeImage dining2" />
           </div>
           <p>Dining</p>
         </div>
         <div className="rangeCard">
           <div className="rangeImageBox">
             <Image src={living1} alt="" className="rangeImage living1" />
-            <Image src={living2} alt="" className="rangeImage living2" />
-            <Image src={living3} alt="" className="rangeImage living3" />
           </div>
           <p>Living</p>
         </div>
         <div className="rangeCard">
           <div className="rangeImageBox">
             <Image src={bedroom1} alt="" className="rangeImage bedroom1" />
-            <Image src={bedroom2} alt="" className="rangeImage bedroom2" />
-            <Image src={bedroom3} alt="" className="rangeImage bedroom3" />
           </div>
           <p>Bedroom</p>
         </div>

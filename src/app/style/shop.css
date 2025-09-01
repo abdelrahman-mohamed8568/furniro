@@ -1,11 +1,11 @@
 .shopHeader {
-  width: 1440px;
+  width: 100vw;
   height: 316px;
   margin-top: 100px;
   position: relative;
 }
 .shopHeaderImage {
-  width: 1440px;
+  width: 100vw;
   height: 316px;
   object-fit: cover;
   filter: blur(3px);

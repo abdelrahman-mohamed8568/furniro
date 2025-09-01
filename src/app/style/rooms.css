@@ -1,5 +1,5 @@
 .rooms {
-  width: 1440px;
+  width: 100vw;
   height: 670px;
   background-color: var(--white4);
   display: flex;

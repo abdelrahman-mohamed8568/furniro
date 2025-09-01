@@ -1,20 +1,16 @@
 nav {
-  width: 1440px;
+  width: 100vw;
   height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: var(--white);
-  position: fixed;
-  z-index: 1000;
 }
 .navBox {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 41px;
   width: 100%;
-  width: 1286px;
 }
 .navLogoBox {
   height: 41px;
