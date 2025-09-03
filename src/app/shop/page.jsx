@@ -15,6 +15,7 @@ import card4 from "@assets/main/homeProducts/card4.jpg";
 import Image from "next/image";
 import Link from "next/link";
 import Card from "../components/common/card";
+
 const productInfo = [
   {
     cover: card1,
@@ -46,6 +47,7 @@ const productInfo = [
     newLable: true,
   },
 ];
+
 function Shop() {
   return (
     <div className="shop">

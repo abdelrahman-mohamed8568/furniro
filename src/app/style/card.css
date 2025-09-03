@@ -8,9 +8,11 @@
   position: relative;
   overflow: hidden;
 }
+
 .card:hover .cardOverlay {
   top: 0;
 }
+
 .cardLabel {
   width: 48px;
   height: 48px;
@@ -27,9 +29,11 @@
   top: 24px;
   left: 213px;
 }
+
 .offer {
   background-color: var(--red);
 }
+
 .cardImagesBox,
 .cardImage {
   width: 285px;
@@ -43,6 +47,7 @@
   justify-content: center;
   padding-top: 15px;
 }
+
 .cardContent {
   width: 90%;
   height: 99px;
@@ -64,18 +69,21 @@
   line-height: 150%;
   color: var(--gray2);
 }
+
 .cardPrice {
   display: flex;
   width: 100%;
   justify-content: space-between;
   align-items: center;
 }
+
 .cardPrice h5 {
   font-weight: 600;
   font-size: 20px;
   line-height: 150%;
   color: var(--black2);
 }
+
 .cardPrice p {
   font-weight: 400;
   font-size: 16px;
@@ -83,6 +91,7 @@
   text-decoration: line-through;
   color: var(--gray3);
 }
+
 .cardOverlay {
   width: 100%;
   height: 100%;
@@ -94,6 +103,7 @@
   top: 446px;
   transition: all 0.5s ease-in-out;
 }
+
 .overlayBox {
   width: 252px;
   height: 96px;
@@ -102,6 +112,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .overlayBox button {
   width: 202px;
   height: 48px;
@@ -113,6 +124,7 @@
   border: none;
   cursor: pointer;
 }
+
 .overlayIcons {
   width: 100%;
   height: 24px;
@@ -120,6 +132,7 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .overlayIcons > div {
   display: flex;
   align-items: center;
@@ -131,6 +144,7 @@
   line-height: 150%;
   cursor: pointer;
 }
+
 .overlayIcon {
   width: 16px;
   height: 16px;

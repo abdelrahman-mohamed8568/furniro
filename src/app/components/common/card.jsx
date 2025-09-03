@@ -1,8 +1,9 @@
+import "@style/card.css";
 import icon1 from "@assets/card/icon1.png";
 import icon2 from "@assets/card/icon2.png";
 import icon3 from "@assets/card/icon3.png";
 import Image from "next/image";
-import "@style/card.css";
+
 function Card({
   cover,
   name,

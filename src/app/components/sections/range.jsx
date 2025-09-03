@@ -1,12 +1,7 @@
 import "@style/range.css";
 import dining1 from "@assets/main/range/card1/card1.png";
-import dining2 from "@assets/main/range/card1/card2.png";
 import living1 from "@assets/main/range/card2/card1.png";
-import living2 from "@assets/main/range/card2/card2.png";
-import living3 from "@assets/main/range/card2/card3.png";
 import bedroom1 from "@assets/main/range/card3/card1.png";
-import bedroom2 from "@assets/main/range/card3/card2.png";
-import bedroom3 from "@assets/main/range/card3/card3.png";
 import Image from "next/image";
 
 function Range() {

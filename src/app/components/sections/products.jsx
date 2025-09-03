@@ -9,6 +9,7 @@ import card6 from "@assets/main/homeProducts/card6.png";
 import card7 from "@assets/main/homeProducts/card7.jpg";
 import card8 from "@assets/main/homeProducts/card8.jpg";
 import Link from "next/link";
+
 const productInfo = [
   {
     cover: card1,
@@ -68,6 +69,7 @@ const productInfo = [
     newLable: true,
   },
 ];
+
 function Products() {
   return (
     <div className="products">

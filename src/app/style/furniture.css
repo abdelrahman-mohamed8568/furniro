@@ -6,6 +6,7 @@
   flex-direction: column;
   justify-content: flex-end;
 }
+
 .furnitureHeader {
   width: 356px;
   height: 86px;
@@ -19,6 +20,7 @@
   left: 0;
   justify-self: center;
 }
+
 .furnitureHeader p {
   font-weight: 600;
   font-size: 20px;
@@ -31,11 +33,13 @@
   line-height: 120%;
   color: var(--black2);
 }
+
 .furnitureGrid {
   width: 1799px;
   height: 721px;
   position: relative;
 }
+
 .furnitureImage {
   display: block;
   object-fit: cover;
@@ -47,24 +51,28 @@
   top: 0;
   object-fit: cover;
 }
+
 .second {
   position: absolute;
   left: -10px;
   top: 402px;
   object-fit: cover;
 }
+
 .third {
   position: absolute;
   left: 285px;
   top: 70px;
   object-fit: cover;
 }
+
 .fourth {
   position: absolute;
   left: 392px;
   top: 402px;
   object-fit: cover;
 }
+
 .fifth {
   position: absolute;
   left: 0;
@@ -75,24 +83,28 @@
   justify-self: center;
   object-fit: cover;
 }
+
 .sixth {
   position: absolute;
   right: 440px;
   top: 110px;
   object-fit: cover;
 }
+
 .seventh {
   position: absolute;
   right: 552px;
   top: 480px;
   object-fit: cover;
 }
+
 .eighth {
   position: absolute;
   right: -5px;
   top: 25px;
   object-fit: cover;
 }
+
 .ninth {
   position: absolute;
   right: 270px;

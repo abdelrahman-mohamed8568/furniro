@@ -1,16 +1,18 @@
 .shopHeader {
-  width: 100vw;
+  width: 100%;
   height: 316px;
   margin-top: 100px;
   position: relative;
 }
+
 .shopHeaderImage {
-  width: 100vw;
+  width: 100%;
   height: 316px;
   object-fit: cover;
   filter: blur(3px);
   opacity: 50%;
 }
+
 .shopHeaderText {
   width: 124px;
   position: absolute;
@@ -25,6 +27,7 @@
   align-self: center;
   color: var(--black4);
 }
+
 .shopHeaderText h2 {
   height: 72px;
   display: flex;
@@ -35,6 +38,7 @@
   font-size: 48px;
   line-height: 100%;
 }
+
 .shopHeaderText > div {
   display: flex;
   align-items: center;
@@ -42,6 +46,7 @@
   width: 100%;
   height: 24px;
 }
+
 .shopHeaderText strong {
   font-weight: 500;
   font-style: Medium;
@@ -49,13 +54,14 @@
   line-height: 100%;
   cursor: pointer;
 }
+
 .shopHeaderText p {
   font-weight: 300;
   font-style: Light;
   font-size: 16px;
   line-height: 100%;
 }
-/* ---------------------------------- */
+
 .filter {
   width: 100%;
   height: 100px;
@@ -67,6 +73,7 @@
   margin-top: -50px;
   z-index: 9;
 }
+
 .filterLeft,
 .filterBox,
 .filterRight {
@@ -74,10 +81,12 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .filterLeft {
   gap: 30px;
   height: 37px;
 }
+
 .filterLeft p {
   height: 37px;
   font-weight: 400;
@@ -90,27 +99,33 @@
   display: flex;
   align-items: center;
 }
+
 .filterBox {
   width: 85px;
   height: 30px;
 }
+
 .filterBox p {
   font-size: 20px !important;
   border: none !important;
   padding: 0 !important;
 }
+
 .filterBox .filterIcon {
   width: 19.5px;
   height: 16.67px;
 }
+
 .filterIcon:nth-child(2) {
   width: 16.33px;
   height: 16.33px;
 }
+
 .filterIcon:nth-child(3) {
   width: 21px;
   height: 19.5px;
 }
+
 .filterRight {
   height: 55px;
   font-style: Regular;
@@ -118,15 +133,18 @@
   line-height: 100%;
   gap: 30px;
 }
+
 .filterRight p {
   color: var(--black4);
 }
+
 .filterRight span {
   color: var(--gray5);
   background-color: var(--white);
   display: flex;
   align-items: center;
 }
+
 .filterBox1,
 .filterBox2 {
   width: 126px;
@@ -135,31 +153,32 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .filterBox1 span {
   width: 55px;
   height: 55px;
   justify-content: center;
 }
+
 .filterBox2 {
   width: 288px;
 }
+
 .filterBox2 span {
   width: 188px;
   height: 55px;
   padding-left: 30px;
 }
-/* --------------- */
+
 .shopProducts {
-  width: 100%;
+  width: 93vw;
   height: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 50px;
 }
-.shopProducts .productsBox {
-  width: 1236px;
-}
+
 .shopPages {
   width: 392px;
   height: 90px;
@@ -172,6 +191,7 @@
   line-height: 100%;
   color: var(--black4);
 }
+
 .shopPages span {
   width: 60px;
   height: 60px;
@@ -181,17 +201,20 @@
   justify-content: center;
   border-radius: 10px;
 }
+
 .shopPages span:not(:first-child) {
   cursor: pointer;
 }
+
 .shopPages span:first-child {
   color: var(--white);
   background-color: var(--main);
 }
+
 .shopPages span:last-child {
   width: 98px;
 }
-/* ---------------------- */
+
 .shopServices {
   width: 100%;
   height: 270px;
@@ -200,6 +223,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .shopServicesBox {
   width: 1334px;
   height: 70px;
@@ -207,16 +231,19 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .shopServicesBox > div {
   height: 70px;
   display: flex;
   align-items: center;
   gap: 10px;
 }
+
 .serviceLogo {
   width: 60px;
   height: 60px;
 }
+
 .serviceText {
   height: 100%;
   width: auto;
@@ -225,15 +252,58 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
 .serviceText h5 {
   width: 100%;
   font-weight: 600;
   font-size: 25px;
   line-height: 150%;
 }
+
 .serviceText p {
   font-weight: 500;
   font-size: 20px;
   line-height: 150%;
   color: var(--gray2);
+}
+
+@media (max-width: 1024px) {
+  .filter {
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 0;
+    gap: 20px;
+  }
+
+  .filter p {
+    font-size: 12px !important;
+  }
+
+  .filterLeft,
+  .filterRight {
+    height: auto;
+    width: 95vw;
+  }
+
+  .filterBox1 span,
+  .filterBox2 span {
+    max-width: 150px !important;
+  }
+
+  .shopServices {
+    height: auto !important;
+  }
+
+  .shopServicesBox {
+    height: auto !important;
+    flex-wrap: wrap !important;
+    gap: 50px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .shopPages {
+    width: 95vw;
+  }
 }
